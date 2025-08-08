@@ -13,7 +13,7 @@ function simulateAsyncTask() {
 simulateAsyncTask();
 
 
-//Simulate Multiple Async Tasks with Different Delays
+//Task 2: Simulate Multiple Async Tasks with Different Delays
 /*
 Create a function simulateMultipleTasks() that starts three asynchronous tasks with different delays (1 second, 2 seconds, and 3 seconds).
 Each task should log "Task [n] finished" where [n] is the task number. Ensure the tasks run asynchronously.
@@ -34,7 +34,7 @@ function simulateMultipleTasks() {
 simulateMultipleTasks();
 
 
-//Async Task with Callback Function
+//Task 3: Async Task with Callback Function
 /*
 Create a function fetchDataWithCallback(callback) that simulates fetching data asynchronously using setTimeout (after 2 seconds).
 Once the data is “fetched”, it should invoke the provided callback function with "Fetched data" as an argument.
@@ -61,3 +61,4 @@ fetchDataWithCallback((tata) => {
 });
 
 //This code waits 5 seconds, then calls your callback function with the string 'Fetched data', which is printed to the console.
+
